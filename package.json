@@ -10,7 +10,7 @@
     "start": "nodemon server.js"
   },
   "engines": {
-    "node": "13.x"
+    "node": "^16.x"
   },
   "author": "Alex Leitch",
   "license": "ISC",
@@ -24,10 +24,10 @@
   },
   "devDependencies": {
     "email-validator": "^2.0.4",
-    "html-validate": "^3.0.0",
     "eslint": "^7.4.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-cypress": "^2.11.1",
-    "eslint-plugin-import": "^2.22.0"
+    "eslint-plugin-import": "^2.22.0",
+    "html-validate": "^6.5.0"
   }
 }
